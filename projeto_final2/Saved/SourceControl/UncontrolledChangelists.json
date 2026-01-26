@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Aluno/Documents/GitHub/projetofinal/projeto_final2/Content/retroFps/textures/levels/LAB/wall/M_floor1.uasset",
+				"C:/Users/Aluno/Documents/GitHub/projetofinal/projeto_final2/Content/retroFps/levels/testmap.umap",
+				"C:/Users/Aluno/Documents/GitHub/projetofinal/projeto_final2/Content/hud.uasset",
+				"C:/Users/Aluno/Documents/GitHub/projetofinal/projeto_final2/Content/retroFps/textures/levels/LAB/wall/M_wall.uasset",
 				"D:/game/projetofinal/projeto_final2/Content/retroFps/levels/testmap.umap",
 				"C:/Users/joel/Documents/Unreal Projects/projeto_final2/Content/retroFps/levels/testmap.umap",
 				"C:/Users/joel/Documents/Unreal Projects/projeto_final2/Content/retroFps/textures/levels/LAB/wall/M_fpsmaterial.uasset",
