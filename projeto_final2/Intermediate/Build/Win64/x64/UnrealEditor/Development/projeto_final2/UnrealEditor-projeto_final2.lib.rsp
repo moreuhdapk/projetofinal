@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-projeto_final2.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:/game/projetofinal/projeto_final2/Intermediate/Build/Win64/x64/projeto_final2Editor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"D:/game/projetofinal/projeto_final2/Intermediate/Build/Win64/x64/UnrealEditor/Development/projeto_final2/Module.projeto_final2.gen.cpp.obj"
+"D:/game/projetofinal/projeto_final2/Intermediate/Build/Win64/x64/UnrealEditor/Development/projeto_final2/projeto_final2.cpp.obj"
+"D:/game/projetofinal/projeto_final2/Intermediate/Build/Win64/x64/UnrealEditor/Development/projeto_final2/test.cpp.obj"
+"D:/game/projetofinal/projeto_final2/Intermediate/Build/Win64/x64/UnrealEditor/Development/projeto_final2/PerModuleInline.gen.cpp.obj"
+"D:/game/projetofinal/projeto_final2/Intermediate/Build/Win64/x64/UnrealEditor/Development/projeto_final2/Default.rc2.res"
+/OUT:"D:/game/projetofinal/projeto_final2/Intermediate/Build/Win64/x64/UnrealEditor/Development/projeto_final2/UnrealEditor-projeto_final2.lib"
