@@ -15,6 +15,7 @@ void EmptyLinkFunctionForGeneratedCodetest() {}
 ENGINE_API UClass* Z_Construct_UClass_AActor();
 PROJETO_FINAL2_API UClass* Z_Construct_UClass_Atest();
 PROJETO_FINAL2_API UClass* Z_Construct_UClass_Atest_NoRegister();
+PROJETO_FINAL2_API UClass* Z_Construct_UClass_UMyInterface_NoRegister();
 UPackage* Z_Construct_UPackage__Script_projeto_final2();
 // ********** End Cross Module References **********************************************************
 
@@ -60,6 +61,7 @@ struct Z_Construct_UClass_Atest_Statics
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
+	static const UECodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<Atest>::IsAbstract,
 	};
@@ -70,6 +72,9 @@ UObject* (*const Z_Construct_UClass_Atest_Statics::DependentSingletons[])() = {
 	(UObject* (*)())Z_Construct_UPackage__Script_projeto_final2,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_Atest_Statics::DependentSingletons) < 16);
+const UECodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_Atest_Statics::InterfaceParams[] = {
+	{ Z_Construct_UClass_UMyInterface_NoRegister, (int32)VTABLE_OFFSET(Atest, IMyInterface), false },  // 2839876359
+};
 const UECodeGen_Private::FClassParams Z_Construct_UClass_Atest_Statics::ClassParams = {
 	&Atest::StaticClass,
 	"Engine",
@@ -77,11 +82,11 @@ const UECodeGen_Private::FClassParams Z_Construct_UClass_Atest_Statics::ClassPar
 	DependentSingletons,
 	nullptr,
 	nullptr,
-	nullptr,
+	InterfaceParams,
 	UE_ARRAY_COUNT(DependentSingletons),
 	0,
 	0,
-	0,
+	UE_ARRAY_COUNT(InterfaceParams),
 	0x009001A4u,
 	METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_Atest_Statics::Class_MetaDataParams), Z_Construct_UClass_Atest_Statics::Class_MetaDataParams)
 };
@@ -98,14 +103,14 @@ Atest::~Atest() {}
 // ********** End Class Atest **********************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_projeto_final2_Source_projeto_final2_test_h__Script_projeto_final2_Statics
+struct Z_CompiledInDeferFile_FID_Users_Aluno_Documents_GitHub_projetofinal_projeto_final2_Source_projeto_final2_test_h__Script_projeto_final2_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_Atest, Atest::StaticClass, TEXT("Atest"), &Z_Registration_Info_UClass_Atest, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(Atest), 2832718628U) },
+		{ Z_Construct_UClass_Atest, Atest::StaticClass, TEXT("Atest"), &Z_Registration_Info_UClass_Atest, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(Atest), 3219630482U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_projeto_final2_Source_projeto_final2_test_h__Script_projeto_final2_945999288(TEXT("/Script/projeto_final2"),
-	Z_CompiledInDeferFile_FID_projeto_final2_Source_projeto_final2_test_h__Script_projeto_final2_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_projeto_final2_Source_projeto_final2_test_h__Script_projeto_final2_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Aluno_Documents_GitHub_projetofinal_projeto_final2_Source_projeto_final2_test_h__Script_projeto_final2_4011739101(TEXT("/Script/projeto_final2"),
+	Z_CompiledInDeferFile_FID_Users_Aluno_Documents_GitHub_projetofinal_projeto_final2_Source_projeto_final2_test_h__Script_projeto_final2_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Aluno_Documents_GitHub_projetofinal_projeto_final2_Source_projeto_final2_test_h__Script_projeto_final2_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************
