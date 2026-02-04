@@ -252,11 +252,28 @@
     <None Include="..\..\projeto_final2.uproject"/>
     <None Include="..\..\Source\projeto_final2.Target.cs"/>
     <None Include="..\..\Source\projeto_final2Editor.Target.cs"/>
+    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Untitled.blend"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
+    <ClCompile Include="..\..\Source\projeto_final2\bida.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\projeto_final2\bida.h"/>
+    <ClCompile Include="..\..\Source\projeto_final2\healthcomponentCPP.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\projeto_final2\healthcomponentCPP.h"/>
+    <ClCompile Include="..\..\Source\projeto_final2\MyActorComponent.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\projeto_final2\MyActorComponent.h"/>
+    <ClCompile Include="..\..\Source\projeto_final2\MyInterface.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\projeto_final2\MyInterface.h"/>
     <None Include="..\..\Source\projeto_final2\projeto_final2.Build.cs"/>
     <ClCompile Include="..\..\Source\projeto_final2\projeto_final2.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

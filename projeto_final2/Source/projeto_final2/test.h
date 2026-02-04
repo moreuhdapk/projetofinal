@@ -3,11 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "MyInterface.h"
 #include "GameFramework/Actor.h"
 #include "test.generated.h"
 
 UCLASS()
-class PROJETO_FINAL2_API Atest : public AActor
+class PROJETO_FINAL2_API Atest : public AActor,public IMyInterface
 {
 	GENERATED_BODY()
 	

@@ -11,6 +11,7 @@
     <None Include="..\..\Source\projeto_final2Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <None Include="..\..\Untitled.blend" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -30,6 +31,30 @@
     <Filter Include="Source\projeto_final2">
       <UniqueIdentifier>{41B37396-D1B7-350C-8FA2-436BBDBACEE6}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\projeto_final2\bida.cpp">
+      <Filter>Source\projeto_final2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\projeto_final2\bida.h">
+      <Filter>Source\projeto_final2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\projeto_final2\healthcomponentCPP.cpp">
+      <Filter>Source\projeto_final2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\projeto_final2\healthcomponentCPP.h">
+      <Filter>Source\projeto_final2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\projeto_final2\MyActorComponent.cpp">
+      <Filter>Source\projeto_final2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\projeto_final2\MyActorComponent.h">
+      <Filter>Source\projeto_final2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\projeto_final2\MyInterface.cpp">
+      <Filter>Source\projeto_final2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\projeto_final2\MyInterface.h">
+      <Filter>Source\projeto_final2</Filter>
+    </ClInclude>
     <None Include="..\..\Source\projeto_final2\projeto_final2.Build.cs">
       <Filter>Source\projeto_final2</Filter>
     </None>

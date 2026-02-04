@@ -1,0 +1,13 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.projeto_final2.gen.cpp.obj": [
+			"MyInterface.gen.cpp.obj",
+			"bida.gen.cpp.obj",
+			"healthcomponentCPP.gen.cpp.obj",
+			"MyActorComponent.gen.cpp.obj",
+			"projeto_final2.init.gen.cpp.obj",
+			"test.gen.cpp.obj"
+		]
+	}
+}

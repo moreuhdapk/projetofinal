@@ -282,9 +282,9 @@
 /I "Editor/SceneDepthPickerMode/Public"
 /I "../Intermediate/Build/Win64/UnrealEditor/Inc/AnimationEditMode/UHT"
 /I "Editor/AnimationEditMode/Public"
-/I "D:/game/projetofinal/projeto_final2/Intermediate/Build/Win64/UnrealEditor/Inc/projeto_final2/UHT"
-/I "D:/game/projetofinal/projeto_final2/Source"
-/I "D:/game/projetofinal/projeto_final2/Intermediate/Build/Win64/x64/projeto_final2Editor/Development/UnrealEd"
+/I "C:/Users/Aluno/Documents/GitHub/projetofinal/projeto_final2/Intermediate/Build/Win64/UnrealEditor/Inc/projeto_final2/UHT"
+/I "C:/Users/Aluno/Documents/GitHub/projetofinal/projeto_final2/Source"
+/I "C:/Users/Aluno/Documents/GitHub/projetofinal/projeto_final2/Intermediate/Build/Win64/x64/projeto_final2Editor/Development/UnrealEd"
 /external:W0
 /external:I "ThirdParty/GuidelinesSupportLibrary/GSL-1144/include"
 /external:I "ThirdParty/AtomicQueue"
